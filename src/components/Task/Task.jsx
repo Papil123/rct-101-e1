@@ -15,7 +15,7 @@ const Task = (props) => {
   }
   return (
     <li data-cy="task" className={styles.task}>
-      <input type="checkbox" checked={handleCheck} data-cy="task-checkbox" />
+      <input type="checkbox" onChange={handleCheck} data-cy="task-checkbox" />
       <div data-cy="task-text">{props.task}</div>
       {/* Counter here */}
       <Counter/>

@@ -1,3 +1,12 @@
 .task {
   /* Sample  */
+  display: flex;
+  margin-left: -10px;
+}
+
+.task>input{
+  margin-left: -10px;
+}
+.task>div{
+  width: 70%;
 }
